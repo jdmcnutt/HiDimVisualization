@@ -52,4 +52,6 @@ you are stuck for computation and your computer is smoking, we can run
 code here as well.
 
 Peter Henstock
+Senior Data Scientist, Pfizer
+Lecturer, Harvard University Extension School
 03/02/2018

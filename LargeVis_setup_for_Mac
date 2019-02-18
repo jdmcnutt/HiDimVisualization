@@ -23,9 +23,17 @@
      matplotlib.use('Agg')
      from matplotlib import pyplot as plt"
      
-8. Save the new changes to the plot.py file (I also moved the changed plot.py file under the "Linux" subfolder), and now you can execute the LargeVis algorithm using either the C++ command (./LargeVis -input test_ECFP_a.txt -output ECFP_a_2D.txt -threads 8)  or the Python wrapper (python LargeVis_run.py -input test_ECFP_a.txt -output ECFP_a_2D.txt -threads 8), both within the Python 2.7 terminal, not an iPython notebook.  
+8. Save the new changes to the plot.py file (I also moved the changed plot.py file under the "Linux" subfolder), and now you can execute the LargeVis algorithm using either the C++ command:
+
+    "./LargeVis -input test_ECFP_a.txt -output output_ECFP_a_vec2D.txt -threads 8"
+    
+    or the Python wrapper:
+    
+    "python LargeVis_run.py -input test_ECFP_a.txt -output output_ECFP_a_vec2D.txt -threads 8"
+    
+(must be executed within the Python 2.7 env terminal, NOT an iPython/Jupyter notebook cell)
 
 (IMPORTANT: the input file must be located in the same file directory as LargeVis_run.py in order for it to work, so I just moved the iPython notebook "ECFP Preprocessing Notebook.ipynb" also into the "Linux" subfolder, along with the        ugiSmiles100000aECFP.csv file, so that it produced its binarized txt file (test_ECFP_a.txt) right there into the Linux folder and LargeVis would pick it up upon execution)
 
 9. Finally, once the LargeVis algorithm has completed (the nice thing about it is that it has a percentage countdown feature so you can tell how far along the computation is at any moment), run the Python plot command, also in the Python 2.7 terminal window:
-    "python plot.py -input ECFP_a_2D.txt -label labels_ECFP_a.txt -output plot_ECFP_a"
+    "python plot.py -input output_ECFP_a_vec2D.txt -label labels_ECFP_a.txt -output plot_ECFP_a"

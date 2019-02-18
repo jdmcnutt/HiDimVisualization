@@ -45,7 +45,7 @@ Distance --> Visualization
 If we have the distance between entries, then we can cluster the
 results and we should be able to come up with some form of
 visualization using something like Largevis.  Let's start with that
-code.  I have included the github.link.txt and the paper.  The first
+code.  I have included the link (https://github.com/lferry007/LargeVis) and the paper.  The first
 step will be trying with the first 100 and creating a view using this
 software.  We'll then raise the number and see how far we can go.  If
 you are stuck for computation and your computer is smoking, we can run

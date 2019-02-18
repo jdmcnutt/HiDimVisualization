@@ -1,5 +1,18 @@
 # HiDimVisualization
+
 Clustering Chemical Compounds using LargeVis
+
+iPython Notebook author: Jonathan McNutt
+
+Project Start: March 2018
+
+Project Completion: April 2018
+
+Notebook Title: "ECFP Preprocessing Notebook.ipynb"
+
+Author's note: The iPython Notebook was completed as part of a Harvard graduate student faculty aide research project, during the Spring 2018 semester, for a presentation on high-dimensional visualization techniques, presented by Professor Peter Henstock during the Bio-IT World 2018 Conference in Boston, MA.
+
+The following is the original problem statement provided to me by Professor Henstock:
 
 Background
 
@@ -57,4 +70,3 @@ Senior Data Scientist, Pfizer
 
 Lecturer, Harvard University Extension School
 
-03/02/2018

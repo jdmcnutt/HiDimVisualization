@@ -64,7 +64,7 @@ software.  We'll then raise the number and see how far we can go.  If
 you are stuck for computation and your computer is smoking, we can run
 code here as well.
 
-Peter Henstock
+Peter V. Henstock, Ph.D.
 
 Senior Data Scientist, Pfizer
 

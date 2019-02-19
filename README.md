@@ -1,6 +1,4 @@
-# HiDimVisualization
-
-Clustering Chemical Compounds using LargeVis
+# Clustering Chemical Compounds using LargeVis
 
 iPython Notebook author: Jonathan McNutt
 
@@ -14,7 +12,7 @@ Author's note: The iPython Notebook was completed as part of a Harvard graduate 
 
 The following is the original problem statement provided to me by Professor Henstock:
 
-Background
+## Background
 
 The data set is this thing called ugi*.  Smiles is a format that
 describes the connections of a compound and looks like CCCNC(=O) which
@@ -28,7 +26,7 @@ variables.  We have plugged all sorts of different compounds in for
 each of the R-groups that are kind of like variables.  This has
 generated a large "library" of compounds.
 
-Computation Begins...
+## Computation Begins
 
 Compounds are pretty and what not, but they don't lend themselves to
 machine learning or visualization.  For that, we need descriptors.  We
@@ -45,7 +43,7 @@ list of structural features or connections that exist.  So, a
 For generating the properties, we broke the 100000 entries into 4
 (a,b,c,d) files.
 
-Calculating distances
+## Calculating distances
 
 The standard approach for fingerprints is using the Tanimoto distance
 which is defined as the intersection/union so it's a score between 0
@@ -53,7 +51,7 @@ and 1.  The Euclidian distance is occasionally used but mostly when it
 has a particularly nice property in some math equations.  Both are
 official distance metrics.
 
-Distance --> Visualization
+## Distance --> Visualization
 
 If we have the distance between entries, then we can cluster the
 results and we should be able to come up with some form of

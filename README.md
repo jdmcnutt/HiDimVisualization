@@ -8,9 +8,9 @@ Project Completion: April 2018
 
 Notebook Title: "ECFP Preprocessing Notebook.ipynb"
 
-Author's note: The iPython Notebook was completed as part of a Harvard graduate student faculty aide research project, during the Spring 2018 semester, for a presentation on high-dimensional visualization techniques, presented by Professor Peter Henstock during the Bio-IT World 2018 Conference in Boston, MA.
+Author's note: The iPython Notebook above was completed as part of a research project on high-dimensional visualization during the Spring 2018 semester, as a paid Harvard faculty aide, for a talk given by Professor Peter Henstock during the Bio-IT World 2018 Conference in Boston, MA.
 
-The following is the original problem statement provided to me by Professor Henstock:
+The following is the original problem statement provided by Professor Henstock:
 
 ## Background
 
